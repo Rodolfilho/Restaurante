@@ -29,7 +29,7 @@ function enviarPedido() {
 
   var pedido = carrinho.join('\n');
   var message = encodeURIComponent('Pedido:\n' + pedido);
-  window.open('https://wa.me/83999149996?text=' + message);
+  window.open('https://wa.me/+5583999149996?text=' + message);
 
   // Limpar carrinho após enviar o pedido
   carrinho = [];
