@@ -51,7 +51,7 @@ footer {
   text-align: center;
 }
 
-/* Estilos responsivos para telas menores */
+/* Estilos responsivos */
 
 @media screen and (max-width: 767px) {
   header {
@@ -60,26 +60,18 @@ footer {
   }
 
   nav ul {
-    display: block;
     text-align: center;
-    margin-top: 10px;
   }
 
   nav ul li {
-    display: inline-block;
-    margin: 0 5px;
+    display: block;
+    margin-bottom: 10px;
   }
 
   section {
     padding: 10px;
   }
-
-  .menu-item {
-    margin-bottom: 10px;
-  }
 }
-
-/* Estilos responsivos para telas maiores */
 
 @media screen and (min-width: 768px) {
   header {
