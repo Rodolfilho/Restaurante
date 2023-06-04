@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurante XYZ - Almoço</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Restaurante XYZ</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="menu">
+    <h2>Almoço</h2>
+    <!-- Lista de itens do almoço -->
+    <div class="menu-item">
+      <h3>Opção 1</h3>
+      <p>Descrição da opção 1 para o almoço.</p>
+      <button onclick="addToCart('Opção 1 - Almoço')">Adicionar ao carrinho</button>
+    </div>
+
+    <div class="menu-item">
+      <h3>Opção 2</h3>
+      <p>Descrição da opção 2 para o almoço.</p>
+      <button onclick="addToCart('Opção 2 - Almoço')">Adicionar ao carrinho</button>
+    </div>
+
+    <!-- ... mais opções de almoço ... -->
+  </section>
+
+  <section id="carrinho">
+    <h2>Carrinho</h2>
+    <ul id="carrinho-lista"></ul>
+    <button onclick="enviarPedido()">Enviar Pedido</button>
+    <p id="mensagem"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Restaurante XYZ. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="menu.js"></script>
+</body>
+</html>
